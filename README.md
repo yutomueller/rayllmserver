@@ -17,7 +17,7 @@
 ## 📦 インストール
 
 ```bash
-pip install ray[serve] fastapi uvicorn transformers torch accelerate pydantic requests
+pip install ray[serve]==2.44.1 fastapi uvicorn transformers torch accelerate pydantic requests
 ```
 
 ※ PyTorch は GPU 環境に応じてインストールしてください：
